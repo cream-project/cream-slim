@@ -1,0 +1,7 @@
+/ Example data
+- links = [{title: 'Home', url: '/index.html'}, {title: 'Test', url: '/test.html'}]
+
+nav.navbar
+  ul
+    - links.each do |link|
+      li = link_to(link.title, link.url)

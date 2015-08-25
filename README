@@ -1,0 +1,21 @@
+# cream-slim
+
+Collection of Slim(link) files. You can use them in any way you like, but they are made with the cream(link) environment in mind. Specifically, these files are made for use with cream in Ruby(link) based environments like Rails, Sinatra or Middleman.
+
+They follow a modular approach, inspired by patternlabs atomic design(link).
+
+## Directories
+
+### /
+Page templates.
+
+### layouts
+Basic document structure.
+
+### partials
+
+#### components
+Basic building blocks.
+
+#### modules
+Complex building blocks.
